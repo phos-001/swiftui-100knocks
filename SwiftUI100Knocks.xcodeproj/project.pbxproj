@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */; };
-		751689B329F27CC5007526BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689B229F27CC5007526BA /* ContentView.swift */; };
 		751689B529F27CC6007526BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B429F27CC6007526BA /* Assets.xcassets */; };
 		751689B829F27CC6007526BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B729F27CC6007526BA /* Preview Assets.xcassets */; };
 		751689C229F27CC6007526BA /* SwiftUI100KnocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689C129F27CC6007526BA /* SwiftUI100KnocksTests.swift */; };
@@ -17,6 +16,7 @@
 		751689DD29F27D39007526BA /* Lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689DC29F27D39007526BA /* Lesson1.swift */; };
 		751689DF29F2804F007526BA /* Lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689DE29F2804F007526BA /* Lesson2.swift */; };
 		751689E129F2837F007526BA /* Lesson3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689E029F2837F007526BA /* Lesson3.swift */; };
+		75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75543AA32A0B59D4009C2C2B /* Lesson4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		751689AD29F27CC5007526BA /* SwiftUI100Knocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100Knocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnocksApp.swift; sourceTree = "<group>"; };
-		751689B229F27CC5007526BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		751689B429F27CC6007526BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751689B729F27CC6007526BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		751689BD29F27CC6007526BA /* SwiftUI100KnocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI100KnocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +49,7 @@
 		751689DC29F27D39007526BA /* Lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1.swift; sourceTree = "<group>"; };
 		751689DE29F2804F007526BA /* Lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2.swift; sourceTree = "<group>"; };
 		751689E029F2837F007526BA /* Lesson3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3.swift; sourceTree = "<group>"; };
+		75543AA32A0B59D4009C2C2B /* Lesson4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */,
-				751689B229F27CC5007526BA /* ContentView.swift */,
 				751689DC29F27D39007526BA /* Lesson1.swift */,
 				751689DE29F2804F007526BA /* Lesson2.swift */,
 				751689E029F2837F007526BA /* Lesson3.swift */,
+				75543AA32A0B59D4009C2C2B /* Lesson4.swift */,
 				751689B429F27CC6007526BA /* Assets.xcassets */,
 				751689B629F27CC6007526BA /* Preview Content */,
 			);
@@ -267,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
+				75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */,
 				751689E129F2837F007526BA /* Lesson3.swift in Sources */,
-				751689B329F27CC5007526BA /* ContentView.swift in Sources */,
 				751689DF29F2804F007526BA /* Lesson2.swift in Sources */,
 				751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */,
 			);
