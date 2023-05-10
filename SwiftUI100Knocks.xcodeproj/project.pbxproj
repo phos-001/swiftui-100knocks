@@ -16,6 +16,7 @@
 		751689DD29F27D39007526BA /* Lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689DC29F27D39007526BA /* Lesson1.swift */; };
 		751689DF29F2804F007526BA /* Lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689DE29F2804F007526BA /* Lesson2.swift */; };
 		751689E129F2837F007526BA /* Lesson3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689E029F2837F007526BA /* Lesson3.swift */; };
+		75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75543AA32A0B59D4009C2C2B /* Lesson4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		751689DC29F27D39007526BA /* Lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1.swift; sourceTree = "<group>"; };
 		751689DE29F2804F007526BA /* Lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2.swift; sourceTree = "<group>"; };
 		751689E029F2837F007526BA /* Lesson3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3.swift; sourceTree = "<group>"; };
+		75543AA32A0B59D4009C2C2B /* Lesson4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				751689DC29F27D39007526BA /* Lesson1.swift */,
 				751689DE29F2804F007526BA /* Lesson2.swift */,
 				751689E029F2837F007526BA /* Lesson3.swift */,
+				75543AA32A0B59D4009C2C2B /* Lesson4.swift */,
 				751689B429F27CC6007526BA /* Assets.xcassets */,
 				751689B629F27CC6007526BA /* Preview Content */,
 			);
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
+				75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */,
 				751689E129F2837F007526BA /* Lesson3.swift in Sources */,
 				751689DF29F2804F007526BA /* Lesson2.swift in Sources */,
 				751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */,
