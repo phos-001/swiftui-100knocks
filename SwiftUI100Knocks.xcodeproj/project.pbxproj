@@ -104,13 +104,8 @@
 		751689AF29F27CC5007526BA /* SwiftUI100Knocks */ = {
 			isa = PBXGroup;
 			children = (
+				75AB8BA32A17607A003EEEEE /* Lesson1~10 */,
 				751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */,
-				751689DC29F27D39007526BA /* Lesson1.swift */,
-				751689DE29F2804F007526BA /* Lesson2.swift */,
-				751689E029F2837F007526BA /* Lesson3.swift */,
-				75543AA32A0B59D4009C2C2B /* Lesson4.swift */,
-				758423532A0B656E00161EE1 /* Lesson5.swift */,
-				7544A5332A0E33C5009E8606 /* Lesson6.swift */,
 				751689B429F27CC6007526BA /* Assets.xcassets */,
 				751689B629F27CC6007526BA /* Preview Content */,
 			);
@@ -140,6 +135,19 @@
 				751689CD29F27CC6007526BA /* SwiftUI100KnocksUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI100KnocksUITests;
+			sourceTree = "<group>";
+		};
+		75AB8BA32A17607A003EEEEE /* Lesson1~10 */ = {
+			isa = PBXGroup;
+			children = (
+				751689DC29F27D39007526BA /* Lesson1.swift */,
+				751689DE29F2804F007526BA /* Lesson2.swift */,
+				751689E029F2837F007526BA /* Lesson3.swift */,
+				75543AA32A0B59D4009C2C2B /* Lesson4.swift */,
+				758423532A0B656E00161EE1 /* Lesson5.swift */,
+				7544A5332A0E33C5009E8606 /* Lesson6.swift */,
+			);
+			path = "Lesson1~10";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
