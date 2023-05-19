@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct Lesson2: View {
-    
     let imageURL = URL(string: "https://onl.sc/CRmKggj")
     
     var body: some View {

@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct Lesson5: View {
-    
     let imageURL = URL(string: "https://cdn2.thecatapi.com/images/lisDai2Pf.jpg")
-    
+
     var body: some View {
         AsyncImage(url: imageURL) { image in
             HStack(spacing: 30){
@@ -23,7 +22,6 @@ struct Lesson5: View {
             ProgressView()
         }
         .frame(width: 360, height: 100)
-        
     }
 }
 

@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct Lesson3: View {
-    
     let imageURL = URL(string: "https://cdn2.thecatapi.com/images/lisDai2Pf.jpg")
-    
+
     var body: some View {
         AsyncImage(url: imageURL) { image in
             image.resizable()
