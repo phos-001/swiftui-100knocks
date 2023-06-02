@@ -24,6 +24,8 @@
 		75AB8BA62A176127003EEEEE /* Lesson7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB8BA52A176127003EEEEE /* Lesson7.swift */; };
 		75F397A12A29DC1F00A30F75 /* Lesson10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A02A29DC1F00A30F75 /* Lesson10.swift */; };
 		75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A32A29DEC300A30F75 /* Lesson11.swift */; };
+		75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A52A29E1F500A30F75 /* Lesson12.swift */; };
+		75F397A82A29E42100A30F75 /* Lesson13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A72A29E42100A30F75 /* Lesson13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		75AB8BA52A176127003EEEEE /* Lesson7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson7.swift; sourceTree = "<group>"; };
 		75F397A02A29DC1F00A30F75 /* Lesson10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10.swift; sourceTree = "<group>"; };
 		75F397A32A29DEC300A30F75 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
+		75F397A52A29E1F500A30F75 /* Lesson12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12.swift; sourceTree = "<group>"; };
+		75F397A72A29E42100A30F75 /* Lesson13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				75F397A32A29DEC300A30F75 /* Lesson11.swift */,
+				75F397A52A29E1F500A30F75 /* Lesson12.swift */,
+				75F397A72A29E42100A30F75 /* Lesson13.swift */,
 			);
 			path = "Lesson11~20";
 			sourceTree = "<group>";
@@ -308,9 +314,11 @@
 				7544A5342A0E33C5009E8606 /* Lesson6.swift in Sources */,
 				75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */,
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
+				75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */,
 				75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */,
 				75AB8BA62A176127003EEEEE /* Lesson7.swift in Sources */,
 				75F397A12A29DC1F00A30F75 /* Lesson10.swift in Sources */,
+				75F397A82A29E42100A30F75 /* Lesson13.swift in Sources */,
 				751689E129F2837F007526BA /* Lesson3.swift in Sources */,
 				758423542A0B656E00161EE1 /* Lesson5.swift in Sources */,
 				751689DF29F2804F007526BA /* Lesson2.swift in Sources */,
