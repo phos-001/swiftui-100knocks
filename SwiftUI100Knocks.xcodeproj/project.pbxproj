@@ -22,6 +22,7 @@
 		75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75543AA32A0B59D4009C2C2B /* Lesson4.swift */; };
 		758423542A0B656E00161EE1 /* Lesson5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758423532A0B656E00161EE1 /* Lesson5.swift */; };
 		75AB8BA62A176127003EEEEE /* Lesson7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB8BA52A176127003EEEEE /* Lesson7.swift */; };
+		75F397A12A29DC1F00A30F75 /* Lesson10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A02A29DC1F00A30F75 /* Lesson10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		75543AA32A0B59D4009C2C2B /* Lesson4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4.swift; sourceTree = "<group>"; };
 		758423532A0B656E00161EE1 /* Lesson5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson5.swift; sourceTree = "<group>"; };
 		75AB8BA52A176127003EEEEE /* Lesson7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson7.swift; sourceTree = "<group>"; };
+		75F397A02A29DC1F00A30F75 /* Lesson10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				75AB8BA52A176127003EEEEE /* Lesson7.swift */,
 				754AB6AF2A20A4710009D88F /* Lesson8.swift */,
 				754AB6B12A20A7970009D88F /* Lesson9.swift */,
+				75F397A02A29DC1F00A30F75 /* Lesson10.swift */,
 			);
 			path = "Lesson1~10";
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
 				75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */,
 				75AB8BA62A176127003EEEEE /* Lesson7.swift in Sources */,
+				75F397A12A29DC1F00A30F75 /* Lesson10.swift in Sources */,
 				751689E129F2837F007526BA /* Lesson3.swift in Sources */,
 				758423542A0B656E00161EE1 /* Lesson5.swift in Sources */,
 				751689DF29F2804F007526BA /* Lesson2.swift in Sources */,
