@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750D05872A3C569E0077F1BC /* Lesson14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D05862A3C569E0077F1BC /* Lesson14.swift */; };
 		751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */; };
 		751689B529F27CC6007526BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B429F27CC6007526BA /* Assets.xcassets */; };
 		751689B829F27CC6007526BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B729F27CC6007526BA /* Preview Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		750D05862A3C569E0077F1BC /* Lesson14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson14.swift; sourceTree = "<group>"; };
 		751689AD29F27CC5007526BA /* SwiftUI100Knocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100Knocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnocksApp.swift; sourceTree = "<group>"; };
 		751689B429F27CC6007526BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				75F397A32A29DEC300A30F75 /* Lesson11.swift */,
 				75F397A52A29E1F500A30F75 /* Lesson12.swift */,
 				75F397A72A29E42100A30F75 /* Lesson13.swift */,
+				750D05862A3C569E0077F1BC /* Lesson14.swift */,
 			);
 			path = "Lesson11~20";
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				75F397A82A29E42100A30F75 /* Lesson13.swift in Sources */,
 				751689E129F2837F007526BA /* Lesson3.swift in Sources */,
 				758423542A0B656E00161EE1 /* Lesson5.swift in Sources */,
+				750D05872A3C569E0077F1BC /* Lesson14.swift in Sources */,
 				751689DF29F2804F007526BA /* Lesson2.swift in Sources */,
 				751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */,
 			);
