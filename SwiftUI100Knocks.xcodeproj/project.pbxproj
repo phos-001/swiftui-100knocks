@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		750D05872A3C569E0077F1BC /* Lesson14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D05862A3C569E0077F1BC /* Lesson14.swift */; };
+		750D05892A3C57EE0077F1BC /* Lesson15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D05882A3C57EE0077F1BC /* Lesson15.swift */; };
 		751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */; };
 		751689B529F27CC6007526BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B429F27CC6007526BA /* Assets.xcassets */; };
 		751689B829F27CC6007526BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B729F27CC6007526BA /* Preview Assets.xcassets */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		750D05862A3C569E0077F1BC /* Lesson14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson14.swift; sourceTree = "<group>"; };
+		750D05882A3C57EE0077F1BC /* Lesson15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15.swift; sourceTree = "<group>"; };
 		751689AD29F27CC5007526BA /* SwiftUI100Knocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100Knocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnocksApp.swift; sourceTree = "<group>"; };
 		751689B429F27CC6007526BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				75F397A52A29E1F500A30F75 /* Lesson12.swift */,
 				75F397A72A29E42100A30F75 /* Lesson13.swift */,
 				750D05862A3C569E0077F1BC /* Lesson14.swift */,
+				750D05882A3C57EE0077F1BC /* Lesson15.swift */,
 			);
 			path = "Lesson11~20";
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				754AB6B02A20A4710009D88F /* Lesson8.swift in Sources */,
 				754AB6B22A20A7970009D88F /* Lesson9.swift in Sources */,
 				7544A5342A0E33C5009E8606 /* Lesson6.swift in Sources */,
+				750D05892A3C57EE0077F1BC /* Lesson15.swift in Sources */,
 				75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */,
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
 				75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */,
