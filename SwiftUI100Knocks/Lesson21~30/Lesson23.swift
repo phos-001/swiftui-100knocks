@@ -9,7 +9,25 @@ import SwiftUI
 
 struct Lesson23: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            CardView {
+                Text("Swift")
+            }
+
+            CardView {
+                Image(systemName: "swift")
+                    .resizable()
+                    .frame(width: 50, height: 50)
+            }
+
+            CardView(color: Color.red.opacity(0.4)) {
+                Text("RedShadow")
+            }
+
+            CardView(color: Color.green.opacity(0.4), radius: 24) {
+                Text("GreenBigShadow")
+            }
+        }
     }
 }
 
@@ -37,9 +55,6 @@ struct CardView<Content>: View where Content: View {
 }
 struct Lesson23_Previews: PreviewProvider {
     static var previews: some View {
-        CardView {
-            Text("Snorlax")
-        }
-        .previewLayout(.sizeThatFits)
+        Lesson23()
     }
 }
