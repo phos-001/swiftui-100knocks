@@ -47,6 +47,7 @@
 		75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A32A29DEC300A30F75 /* Lesson11.swift */; };
 		75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A52A29E1F500A30F75 /* Lesson12.swift */; };
 		75F397A82A29E42100A30F75 /* Lesson13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A72A29E42100A30F75 /* Lesson13.swift */; };
+		C429169B2A99E96F004C8BC3 /* Lesson35.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429169A2A99E96F004C8BC3 /* Lesson35.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		75F397A32A29DEC300A30F75 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
 		75F397A52A29E1F500A30F75 /* Lesson12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12.swift; sourceTree = "<group>"; };
 		75F397A72A29E42100A30F75 /* Lesson13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13.swift; sourceTree = "<group>"; };
+		C429169A2A99E96F004C8BC3 /* Lesson35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson35.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				75956F3D2A98994200900130 /* Lesson32.swift */,
 				75956F3F2A989A2200900130 /* Lesson33.swift */,
 				75956F412A98A00A00900130 /* Lesson34.swift */,
+				C429169A2A99E96F004C8BC3 /* Lesson35.swift */,
 			);
 			path = "Lesson31~40";
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
 				75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */,
 				753602B02A6A77CE009EF3DA /* Lesson19.swift in Sources */,
+				C429169B2A99E96F004C8BC3 /* Lesson35.swift in Sources */,
 				752A20712A6F562F00E03D40 /* Lesson22.swift in Sources */,
 				75A4B2E02A8F649100ED4EBE /* Lesson26.swift in Sources */,
 				75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */,
