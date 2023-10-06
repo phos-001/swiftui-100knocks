@@ -14,17 +14,13 @@ class PasswordViewModel: ObservableObject {
         }
     }
     @Published var isActive: Bool = false
-    private var isFirstAppear = true
+    @Published var isFirstAppear = true
 
     func onAppear() {
-        guard isFirstAppear else {
-            return
-        }
+        guard isFirstAppear else { return }
         isFirstAppear = false
 
-        guard let password = UserDefaults.standard.string(forKey: "email") else {
-            return
-        }
+        guard let password = UserDefaults.standard.string(forKey: "email") else { return }
         self.password = password
 
         // Validation
@@ -46,17 +42,13 @@ struct PasswordView: View {
                 NavigationLink("Next") {
                     CompleteView()
                 }
-                Spacer()
             }
-            .navigationDestination(isPresented: $passwordViewModel.isActive) {
+            .padding()
+            .navigationBarTitle("Password")
+            .navigationDestination(isPresented: $passwordViewModel.isFirstAppear) {
                 CompleteView()
             }
         }
-        .onAppear {
-            self.passwordViewModel.onAppear()
-        }
-        .padding()
-        .navigationBarTitle("Password")
     }
 }
 

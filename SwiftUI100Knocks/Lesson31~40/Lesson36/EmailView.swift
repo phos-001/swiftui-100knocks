@@ -14,7 +14,7 @@ class EmailViewModel: ObservableObject {
         }
     }
     @Published var isActive: Bool = false
-    private var isFirstAppear = true
+    @State var isFirstAppear: Bool = true
 
     func onAppear() {
         guard isFirstAppear else { return }
@@ -34,6 +34,7 @@ class EmailViewModel: ObservableObject {
 
 struct EmailView: View {
     @ObservedObject var emailViewModel = EmailViewModel()
+    @State private var isTapButton: Bool = false
     var body: some View {
         NavigationStack {
             VStack(spacing: 16) {
@@ -42,10 +43,12 @@ struct EmailView: View {
                 NavigationLink("Next") {
                     PasswordView()
                 }
-                Spacer()
             }
             .padding()
             .navigationTitle("Email")
+            .navigationDestination(isPresented: $emailViewModel.isFirstAppear) {
+                PasswordView()
+            }
         }
     }
 }
