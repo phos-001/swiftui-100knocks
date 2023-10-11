@@ -15,22 +15,20 @@ struct TutorialView: View {
             Spacer()
             Text(text)
             HStack {
-                Spacer()
                 Image(systemName: imageName)
                     .resizable()
                     .scaledToFit()
+                    .foregroundColor(.red)
                     .frame(width: 200, height: 200)
-                Spacer()
             }
             Spacer()
         }
-        .background(Color.gray)
         .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct TutorialView_Previews: PreviewProvider {
     static var previews: some View {
-        TutorialView(imageName: "swift", text: "This is Tutorial")
+        TutorialView(imageName: "swift", text: "This is Tutorial!!!")
     }
 }

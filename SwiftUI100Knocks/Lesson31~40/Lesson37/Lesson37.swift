@@ -16,7 +16,6 @@ struct Lesson37: View {
 
     var body: some View {
         PageView(views)
-            .background(Color.gray)
             .edgesIgnoringSafeArea(.all)
     }
 }
