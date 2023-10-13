@@ -1,28 +1,21 @@
 //
-//  Lesson42.swift
+//  Lesson43.swift
 //  SwiftUI100Knocks
 //
 //  Created by Yuto Hayashi on 2023/10/13.
 //
 
 import SwiftUI
+import Combine
 
 private enum GithubAPI {
-    static func searchRepos(page: Int, perPage: Int, completion: @escaping (Result<[Repository], Error>) -> Void) {
+    static func searchRepos(page: Int, perPage: Int) -> AnyPublisher<[Repository], Error> {
         let url = URL(string: "https://api.github.com/search/repositories?q=swift&sort=stars&page=\(page)&per_page=\(perPage)")!
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            if let error = error {
-                completion(Result.failure(error))
-                return
-            }
-            do {
-                let repositories = try JSONDecoder().decode(GithubSearchResult.self, from: data!).items
-                completion(Result.success(repositories))
-            } catch let error {
-                completion(Result.failure(error))
-            }
-        }
-        task.resume()
+        return URLSession.shared
+            .dataTaskPublisher(for: url)
+            .tryMap { try JSONDecoder().decode(GithubSearchResult.self, from: $0.data).items }
+            .receive(on: DispatchQueue.main)
+            .eraseToAnyPublisher()
     }
 }
 
@@ -44,8 +37,9 @@ private struct Repository: Codable, Identifiable, Equatable {
     }
 }
 
-struct Lesson42: View {
+struct Lesson43: View {
     @State private var repositories: [Repository] = []
+    @State private var subscriptions = Set<AnyCancellable>()
     @State private var showingAlert = false
     @State private var errorMessage = ""
 
@@ -58,19 +52,19 @@ struct Lesson42: View {
                 Text("Start: \(repository.stargazersCount)")
             }
         }.onAppear {
-            GithubAPI.searchRepos(page: 1, perPage: 30) { result in
-                switch result {
-                case let .success(repositories):
-                    DispatchQueue.main.async {
-                        self.repositories = repositories
-                    }
-                case let .failure(error):
-                    DispatchQueue.main.async {
-                        self.errorMessage = error.localizedDescription
+            GithubAPI.searchRepos(page: 1, perPage: 30)
+                .sink(receiveCompletion: { completion in
+                    switch completion {
+                    case .finished:
+                        break
+                    case let .failure(error):
                         self.showingAlert = true
+                        self.errorMessage = error.localizedDescription
                     }
-                }
-            }
+                }, receiveValue: { repositories in
+                    self.repositories = repositories
+                })
+                .store(in: &self.subscriptions)
         }
         .alert(isPresented: self.$showingAlert) {
             Alert(title: Text("Error"),
@@ -80,8 +74,8 @@ struct Lesson42: View {
     }
 }
 
-struct Lesson42_Previews: PreviewProvider {
+struct Lesson43_Previews: PreviewProvider {
     static var previews: some View {
-        Lesson42()
+        Lesson43()
     }
 }
