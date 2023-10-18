@@ -1,8 +1,8 @@
 //
-//  Lesson43.swift
+//  Lesson44.swift
 //  SwiftUI100Knocks
 //
-//  Created by Yuto Hayashi on 2023/10/13.
+//  Created by Yuto Hayashi on 2023/10/18.
 //
 
 import Combine
@@ -37,8 +37,10 @@ private struct Repository: Codable, Identifiable, Equatable {
     }
 }
 
-struct Lesson43: View {
+struct Lesson44: View {
     @State private var repositories: [Repository] = []
+    @State private var page = 1
+    @State private var isFetching = false
     @State private var subscriptions = Set<AnyCancellable>()
     @State private var showingAlert = false
     @State private var errorMessage = ""
@@ -51,20 +53,13 @@ struct Lesson43: View {
                 Text(repository.description ?? "")
                 Text("Start: \(repository.stargazersCount)")
             }
+            .onAppear {
+                if self.repositories.last == repository {
+                    self.fetchRepositories()
+                }
+            }
         }.onAppear {
-            GithubAPI.searchRepos(page: 1, perPage: 30)
-                .sink(receiveCompletion: { completion in
-                    switch completion {
-                    case .finished:
-                        break
-                    case let .failure(error):
-                        self.showingAlert = true
-                        self.errorMessage = error.localizedDescription
-                    }
-                }, receiveValue: { repositories in
-                    self.repositories = repositories
-                })
-                .store(in: &self.subscriptions)
+            self.fetchRepositories()
         }
         .alert(isPresented: self.$showingAlert) {
             Alert(title: Text("Error"),
@@ -72,10 +67,32 @@ struct Lesson43: View {
                   dismissButton: .default(Text("Close")))
         }
     }
-}
 
-struct Lesson43_Previews: PreviewProvider {
-    static var previews: some View {
-        Lesson43()
+    private func fetchRepositories() {
+        guard !isFetching else { return }
+        isFetching = true
+        GithubAPI.searchRepos(page: self.page, perPage: 30)
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .finished:
+                    self.isFetching = false
+                    break
+                case let .failure(error):
+                    self.isFetching = false
+                    self.showingAlert = true
+                    self.errorMessage = error.localizedDescription
+                }
+            }, receiveValue: { repositories in
+                self.repositories += repositories
+                self.page += 1
+            })
+            .store(in: &self.subscriptions)
     }
 }
+
+struct Lesson44_Previews: PreviewProvider {
+    static var previews: some View {
+        Lesson44()
+    }
+}
+

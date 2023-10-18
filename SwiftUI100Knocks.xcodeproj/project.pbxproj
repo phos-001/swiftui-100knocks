@@ -10,6 +10,8 @@
 		750D05872A3C569E0077F1BC /* Lesson14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D05862A3C569E0077F1BC /* Lesson14.swift */; };
 		750D05892A3C57EE0077F1BC /* Lesson15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D05882A3C57EE0077F1BC /* Lesson15.swift */; };
 		7512EBDA2A9491150046D676 /* Lesson30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7512EBD92A9491150046D676 /* Lesson30.swift */; };
+		751424C92ADFBD9800B70F4D /* Lesson44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751424C82ADFBD9800B70F4D /* Lesson44.swift */; };
+		751424CB2ADFC26200B70F4D /* Lesson45.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751424CA2ADFC26200B70F4D /* Lesson45.swift */; };
 		751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */; };
 		751689B529F27CC6007526BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B429F27CC6007526BA /* Assets.xcassets */; };
 		751689B829F27CC6007526BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B729F27CC6007526BA /* Preview Assets.xcassets */; };
@@ -87,6 +89,8 @@
 		750D05862A3C569E0077F1BC /* Lesson14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson14.swift; sourceTree = "<group>"; };
 		750D05882A3C57EE0077F1BC /* Lesson15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15.swift; sourceTree = "<group>"; };
 		7512EBD92A9491150046D676 /* Lesson30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson30.swift; sourceTree = "<group>"; };
+		751424C82ADFBD9800B70F4D /* Lesson44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson44.swift; sourceTree = "<group>"; };
+		751424CA2ADFC26200B70F4D /* Lesson45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson45.swift; sourceTree = "<group>"; };
 		751689AD29F27CC5007526BA /* SwiftUI100Knocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100Knocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnocksApp.swift; sourceTree = "<group>"; };
 		751689B429F27CC6007526BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -277,6 +281,8 @@
 				7563BE412AD9375300CBB4D8 /* Lesson41.swift */,
 				7563BE442AD93B5400CBB4D8 /* Lesson42.swift */,
 				756D40832AD953CC00194A94 /* Lesson43.swift */,
+				751424C82ADFBD9800B70F4D /* Lesson44.swift */,
+				751424CA2ADFC26200B70F4D /* Lesson45.swift */,
 			);
 			path = "Lesson41~50";
 			sourceTree = "<group>";
@@ -483,6 +489,7 @@
 				7544A5342A0E33C5009E8606 /* Lesson6.swift in Sources */,
 				756DC3982AD634F900228151 /* PageView.swift in Sources */,
 				750D05892A3C57EE0077F1BC /* Lesson15.swift in Sources */,
+				751424C92ADFBD9800B70F4D /* Lesson44.swift in Sources */,
 				75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */,
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
 				756DC39E2AD6870100228151 /* Lesson38.swift in Sources */,
@@ -512,6 +519,7 @@
 				75F397A82A29E42100A30F75 /* Lesson13.swift in Sources */,
 				751689E129F2837F007526BA /* Lesson3.swift in Sources */,
 				753602B52A6A7D86009EF3DA /* Lesson21.swift in Sources */,
+				751424CB2ADFC26200B70F4D /* Lesson45.swift in Sources */,
 				756DC39A2AD6360000228151 /* PageViewController.swift in Sources */,
 				7593F85F2A613DC10022FD13 /* Lesson16.swift in Sources */,
 				758423542A0B656E00161EE1 /* Lesson5.swift in Sources */,
