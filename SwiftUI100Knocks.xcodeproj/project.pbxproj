@@ -71,6 +71,8 @@
 		75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A52A29E1F500A30F75 /* Lesson12.swift */; };
 		75F397A82A29E42100A30F75 /* Lesson13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A72A29E42100A30F75 /* Lesson13.swift */; };
 		C429169B2A99E96F004C8BC3 /* Lesson35.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429169A2A99E96F004C8BC3 /* Lesson35.swift */; };
+		C49DBA8F2AE2BB1A00CB5034 /* Lesson52.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DBA8E2AE2BB1A00CB5034 /* Lesson52.swift */; };
+		C49DBA922AE2BEFF00CB5034 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DBA912AE2BEFF00CB5034 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +160,8 @@
 		75F397A52A29E1F500A30F75 /* Lesson12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12.swift; sourceTree = "<group>"; };
 		75F397A72A29E42100A30F75 /* Lesson13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13.swift; sourceTree = "<group>"; };
 		C429169A2A99E96F004C8BC3 /* Lesson35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson35.swift; sourceTree = "<group>"; };
+		C49DBA8E2AE2BB1A00CB5034 /* Lesson52.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson52.swift; sourceTree = "<group>"; };
+		C49DBA912AE2BEFF00CB5034 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +217,7 @@
 				753602B32A6A7D68009EF3DA /* Lesson21~30 */,
 				75956F3A2A98989E00900130 /* Lesson31~40 */,
 				7563BE402AD936B100CBB4D8 /* Lesson41~50 */,
+				C49DBA8B2AE2B26200CB5034 /* Lesson51~60 */,
 				751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */,
 				751689B429F27CC6007526BA /* Assets.xcassets */,
 				751689B629F27CC6007526BA /* Preview Content */,
@@ -370,6 +375,23 @@
 			path = "Lesson11~20";
 			sourceTree = "<group>";
 		};
+		C49DBA8B2AE2B26200CB5034 /* Lesson51~60 */ = {
+			isa = PBXGroup;
+			children = (
+				C49DBA902AE2BEE800CB5034 /* Lesson52 */,
+			);
+			path = "Lesson51~60";
+			sourceTree = "<group>";
+		};
+		C49DBA902AE2BEE800CB5034 /* Lesson52 */ = {
+			isa = PBXGroup;
+			children = (
+				C49DBA8E2AE2BB1A00CB5034 /* Lesson52.swift */,
+				C49DBA912AE2BEFF00CB5034 /* InputView.swift */,
+			);
+			path = Lesson52;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -508,6 +530,7 @@
 				75956F3E2A98994200900130 /* Lesson32.swift in Sources */,
 				7559044D2A73B7C9004282D2 /* Lesson25.swift in Sources */,
 				752A20732A6F596B00E03D40 /* Lesson23.swift in Sources */,
+				C49DBA8F2AE2BB1A00CB5034 /* Lesson52.swift in Sources */,
 				7525C3812AB44D6100BF3B7E /* CompleteView.swift in Sources */,
 				75466E192AD4DDAB00D58B11 /* PageControl.swift in Sources */,
 				7544A5342A0E33C5009E8606 /* Lesson6.swift in Sources */,
@@ -517,6 +540,7 @@
 				75C8BA992AE278500007ECC7 /* Lesson50.swift in Sources */,
 				75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */,
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
+				C49DBA922AE2BEFF00CB5034 /* InputView.swift in Sources */,
 				756DC39E2AD6870100228151 /* Lesson38.swift in Sources */,
 				75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */,
 				75466E162AD4DCE800D58B11 /* Lesson37.swift in Sources */,
@@ -724,6 +748,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -752,6 +777,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
