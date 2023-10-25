@@ -46,6 +46,7 @@
 		756992712AE8F8D100CA4891 /* Lesson61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756992702AE8F8D100CA4891 /* Lesson61.swift */; };
 		756992732AE8FB3400CA4891 /* Lesson62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756992722AE8FB3400CA4891 /* Lesson62.swift */; };
 		756992752AE8FD3D00CA4891 /* Lesson63.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756992742AE8FD3D00CA4891 /* Lesson63.swift */; };
+		756992772AE8FE6600CA4891 /* Lesson64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756992762AE8FE6600CA4891 /* Lesson64.swift */; };
 		756D40842AD953CC00194A94 /* Lesson43.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D40832AD953CC00194A94 /* Lesson43.swift */; };
 		756DC3982AD634F900228151 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756DC3972AD634F900228151 /* PageView.swift */; };
 		756DC39A2AD6360000228151 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756DC3992AD6360000228151 /* PageViewController.swift */; };
@@ -148,6 +149,7 @@
 		756992702AE8F8D100CA4891 /* Lesson61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson61.swift; sourceTree = "<group>"; };
 		756992722AE8FB3400CA4891 /* Lesson62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson62.swift; sourceTree = "<group>"; };
 		756992742AE8FD3D00CA4891 /* Lesson63.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson63.swift; sourceTree = "<group>"; };
+		756992762AE8FE6600CA4891 /* Lesson64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson64.swift; sourceTree = "<group>"; };
 		756D40832AD953CC00194A94 /* Lesson43.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson43.swift; sourceTree = "<group>"; };
 		756DC3972AD634F900228151 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		756DC3992AD6360000228151 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				756992702AE8F8D100CA4891 /* Lesson61.swift */,
 				756992722AE8FB3400CA4891 /* Lesson62.swift */,
 				756992742AE8FD3D00CA4891 /* Lesson63.swift */,
+				756992762AE8FE6600CA4891 /* Lesson64.swift */,
 			);
 			path = "Lesson61~70";
 			sourceTree = "<group>";
@@ -625,6 +628,7 @@
 				75956F402A989A2200900130 /* Lesson33.swift in Sources */,
 				7563BE3D2AD9339900CBB4D8 /* Lesson39.swift in Sources */,
 				75AB8BA62A176127003EEEEE /* Lesson7.swift in Sources */,
+				756992772AE8FE6600CA4891 /* Lesson64.swift in Sources */,
 				753602B22A6A7AD6009EF3DA /* Lesson20.swift in Sources */,
 				75956F422A98A00A00900130 /* Lesson34.swift in Sources */,
 				7593F8612A6141650022FD13 /* Lesson17.swift in Sources */,
