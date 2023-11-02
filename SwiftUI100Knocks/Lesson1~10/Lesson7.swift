@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Pokemon: Identifiable {
+private struct Pokemon: Identifiable {
     var id = UUID()
     var name: String
     var tag: Int
 }
 
 struct Lesson7: View {
-    var pokemons = [
+    private var pokemons = [
         Pokemon(name: "ヒトカゲ", tag: 0),
         Pokemon(name:"ゼニガメ", tag: 1),
         Pokemon(name:"フシギダネ", tag: 2)

@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct Monster: Identifiable {
+private struct Pokemon: Identifiable {
     let id = UUID()
     let name: String
 }
 
 struct Lesson26: View {
-    @State private var pokemons: [Monster] = [
-        Monster(name: "ピカチュー"),
-        Monster(name: "ヒトカゲ"),
-        Monster(name: "ゼニガメ"),
-        Monster(name: "フシギダネ")]
+    @State private var pokemons: [Pokemon] = [
+        Pokemon(name: "ピカチュー"),
+        Pokemon(name: "ヒトカゲ"),
+        Pokemon(name: "ゼニガメ"),
+        Pokemon(name: "フシギダネ")]
     @State private var showingAlert = false
 
     var body: some View {
