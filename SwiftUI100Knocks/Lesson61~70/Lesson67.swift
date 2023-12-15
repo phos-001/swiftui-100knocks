@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-private struct Pokemon: Identifiable {
-    var id: Int
-    let name: String
-}
-
 struct Lesson67: View {
     let pokemons: [String] = ["Bulbasaur", "Charmander", "Squirtle"]
     var body: some View {
