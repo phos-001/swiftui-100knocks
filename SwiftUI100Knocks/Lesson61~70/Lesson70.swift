@@ -1,5 +1,5 @@
 //
-//  Lesson69.swift
+//  Lesson70.swift
 //  SwiftUI100Knocks
 //
 //  Created by Yuto Hayashi on 2023/12/15.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Lesson69: View {
+struct Lesson70: View {
     @State var text: String = ""
     let pokemons: [String] = ["Bulbasaur", "Charmander", "Squirtle"]
     var filteredPokemons: [String] {
@@ -22,6 +22,7 @@ struct Lesson69: View {
             LazyVStack {
                 TextField("Type your search", text: $text)
                     .padding(8)
+                    .modifier(TextFieldClearButton(text: $text))
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 ForEach(filteredPokemons, id: \.self) { pokemon in
                     VStack(alignment: .leading) {
@@ -35,6 +36,22 @@ struct Lesson69: View {
     }
 }
 
+struct TextFieldClearButton: ViewModifier {
+    @Binding var text: String
+    func body(content: Content) -> some View {
+        HStack{
+            content
+            if !text.isEmpty {
+                Button(action: { self.text = "" }) {
+                    Image(systemName: "delete.left")
+                        .foregroundColor(Color(UIColor.opaqueSeparator))
+                }
+                .padding(.trailing, 8)
+            }
+        }
+    }
+}
+
 #Preview {
-    Lesson68()
+    Lesson70()
 }
