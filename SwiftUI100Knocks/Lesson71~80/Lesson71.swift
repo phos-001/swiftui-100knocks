@@ -35,4 +35,3 @@ struct ActivityViewController: UIViewControllerRepresentable {
 #Preview {
     Lesson71()
 }
-
