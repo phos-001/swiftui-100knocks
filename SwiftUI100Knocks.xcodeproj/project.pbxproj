@@ -13,6 +13,7 @@
 		7512EBDA2A9491150046D676 /* Lesson30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7512EBD92A9491150046D676 /* Lesson30.swift */; };
 		751424C92ADFBD9800B70F4D /* Lesson44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751424C82ADFBD9800B70F4D /* Lesson44.swift */; };
 		751424CB2ADFC26200B70F4D /* Lesson45.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751424CA2ADFC26200B70F4D /* Lesson45.swift */; };
+		7514D4EC2B6250200029C988 /* Lesson77.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7514D4EB2B6250200029C988 /* Lesson77.swift */; };
 		751689B129F27CC5007526BA /* SwiftUI100KnocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */; };
 		751689B529F27CC6007526BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B429F27CC6007526BA /* Assets.xcassets */; };
 		751689B829F27CC6007526BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751689B729F27CC6007526BA /* Preview Assets.xcassets */; };
@@ -125,6 +126,7 @@
 		7512EBD92A9491150046D676 /* Lesson30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson30.swift; sourceTree = "<group>"; };
 		751424C82ADFBD9800B70F4D /* Lesson44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson44.swift; sourceTree = "<group>"; };
 		751424CA2ADFC26200B70F4D /* Lesson45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson45.swift; sourceTree = "<group>"; };
+		7514D4EB2B6250200029C988 /* Lesson77.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson77.swift; sourceTree = "<group>"; };
 		751689AD29F27CC5007526BA /* SwiftUI100Knocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100Knocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100KnocksApp.swift; sourceTree = "<group>"; };
 		751689B429F27CC6007526BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -395,6 +397,7 @@
 				7584EE952B591CD5000370BF /* Lesson74.swift */,
 				755CAE652B5E5DAA00ADE7D5 /* Lesson75.swift */,
 				755CAE672B5E64AE00ADE7D5 /* Lesson76.swift */,
+				7514D4EB2B6250200029C988 /* Lesson77.swift */,
 			);
 			path = "Lesson71~80";
 			sourceTree = "<group>";
@@ -653,6 +656,7 @@
 				75C8BA992AE278500007ECC7 /* Lesson50.swift in Sources */,
 				75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */,
 				751689DD29F27D39007526BA /* Lesson1.swift in Sources */,
+				7514D4EC2B6250200029C988 /* Lesson77.swift in Sources */,
 				756992712AE8F8D100CA4891 /* Lesson61.swift in Sources */,
 				7584EE962B591CD5000370BF /* Lesson74.swift in Sources */,
 				C49DBA922AE2BEFF00CB5034 /* InputView.swift in Sources */,
@@ -876,6 +880,8 @@
 				DEVELOPMENT_TEAM = 2HQ4BA8ET8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "動画を撮るために許可が必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "動画を保存するために許可が必要です。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -905,6 +911,8 @@
 				DEVELOPMENT_TEAM = 2HQ4BA8ET8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "動画を撮るために許可が必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "動画を保存するために許可が必要です。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
