@@ -5,8 +5,8 @@
 //  Created by Yuto Hayashi on 2024/02/06.
 //
 
-import SwiftUI
 import PhotosUI
+import SwiftUI
 
 struct Lesson79: View {
     @State var image: UIImage?
