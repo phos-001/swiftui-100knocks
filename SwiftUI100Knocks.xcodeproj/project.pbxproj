@@ -87,6 +87,7 @@
 		75D7E3C52AE615EA002FA290 /* Lesson59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7E3C42AE615EA002FA290 /* Lesson59.swift */; };
 		75D7E3C72AE616C8002FA290 /* Lesson60.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7E3C62AE616C8002FA290 /* Lesson60.swift */; };
 		75D7E3CB2AE61998002FA290 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 75D7E3CA2AE61998002FA290 /* QGrid */; };
+		75F10F642B91BE0000F71A1A /* Lesson81.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F10F632B91BE0000F71A1A /* Lesson81.swift */; };
 		75F397A12A29DC1F00A30F75 /* Lesson10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A02A29DC1F00A30F75 /* Lesson10.swift */; };
 		75F397A42A29DEC300A30F75 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A32A29DEC300A30F75 /* Lesson11.swift */; };
 		75F397A62A29E1F500A30F75 /* Lesson12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F397A52A29E1F500A30F75 /* Lesson12.swift */; };
@@ -205,6 +206,7 @@
 		75D29E022AF3A033009D381E /* Lesson66.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson66.swift; sourceTree = "<group>"; };
 		75D7E3C42AE615EA002FA290 /* Lesson59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson59.swift; sourceTree = "<group>"; };
 		75D7E3C62AE616C8002FA290 /* Lesson60.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson60.swift; sourceTree = "<group>"; };
+		75F10F632B91BE0000F71A1A /* Lesson81.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson81.swift; sourceTree = "<group>"; };
 		75F397A02A29DC1F00A30F75 /* Lesson10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10.swift; sourceTree = "<group>"; };
 		75F397A32A29DEC300A30F75 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
 		75F397A52A29E1F500A30F75 /* Lesson12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				C49DBA8B2AE2B26200CB5034 /* Lesson51~60 */,
 				7569926F2AE8F8B500CA4891 /* Lesson61~70 */,
 				7584EE8C2B59145E000370BF /* Lesson71~80 */,
+				75F10F622B91BDE600F71A1A /* Lesson81~90 */,
 				751689B029F27CC5007526BA /* SwiftUI100KnocksApp.swift */,
 				751689B429F27CC6007526BA /* Assets.xcassets */,
 				751689B629F27CC6007526BA /* Preview Content */,
@@ -452,6 +455,14 @@
 				75C8BA9B2AE279E20007ECC7 /* MapView.swift */,
 			);
 			path = Lesson50;
+			sourceTree = "<group>";
+		};
+		75F10F622B91BDE600F71A1A /* Lesson81~90 */ = {
+			isa = PBXGroup;
+			children = (
+				75F10F632B91BE0000F71A1A /* Lesson81.swift */,
+			);
+			path = "Lesson81~90";
 			sourceTree = "<group>";
 		};
 		75F397A22A29DEA800A30F75 /* Lesson11~20 */ = {
@@ -702,6 +713,7 @@
 				7593F8612A6141650022FD13 /* Lesson17.swift in Sources */,
 				75C8BA972AE275390007ECC7 /* Lesson49.swift in Sources */,
 				7563BE452AD93B5400CBB4D8 /* Lesson42.swift in Sources */,
+				75F10F642B91BE0000F71A1A /* Lesson81.swift in Sources */,
 				75F397A12A29DC1F00A30F75 /* Lesson10.swift in Sources */,
 				75C8BA902AE270060007ECC7 /* Lesson46.swift in Sources */,
 				7525C3832AB44D8C00BF3B7E /* EmailView.swift in Sources */,

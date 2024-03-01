@@ -29,7 +29,7 @@ struct Lesson80: View {
         }
 }
 
-public struct LocationSelecterView: UIViewRepresentable {
+private struct LocationSelecterView: UIViewRepresentable {
     let locationDidSet: (_ location: CLLocationCoordinate2D) -> Void
     final public class Coordinator: NSObject, LocationSelecterViewDelegate {
         private var mapView: LocationSelecterView
@@ -107,6 +107,18 @@ public class UILocationSelecterView: UIView {
         horizontalLinePath.addLine(to: CGPoint(x: bounds.width / 2, y: (bounds.height / 2) + 50))
         horizontalLine.path = horizontalLinePath.cgPath
     }
+    // Remove All Annotation
+    func removeAllAnnotations() {
+        mapView.removeAnnotations(mapView.annotations)
+    }
+
+    // Anotation
+    func addAnotation(location: CLLocationCoordinate2D) {
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = location
+        annotation.title = "lat: \(location.latitude), lon: \(location.longitude)"
+        mapView.addAnnotation(annotation)
+    }
 }
 
 extension UILocationSelecterView: MKMapViewDelegate {
@@ -119,4 +131,3 @@ extension UILocationSelecterView: MKMapViewDelegate {
 #Preview {
     Lesson80()
 }
-
