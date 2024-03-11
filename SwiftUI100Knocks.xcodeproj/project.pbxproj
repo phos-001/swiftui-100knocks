@@ -40,6 +40,7 @@
 		754AB6B02A20A4710009D88F /* Lesson8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754AB6AF2A20A4710009D88F /* Lesson8.swift */; };
 		754AB6B22A20A7970009D88F /* Lesson9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754AB6B12A20A7970009D88F /* Lesson9.swift */; };
 		7553A1A72B9EDF0B00AC7552 /* Lesson84.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7553A1A62B9EDF0B00AC7552 /* Lesson84.swift */; };
+		7553A1A92B9EEF0F00AC7552 /* Lesson85.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7553A1A82B9EEF0F00AC7552 /* Lesson85.swift */; };
 		75543AA42A0B59D4009C2C2B /* Lesson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75543AA32A0B59D4009C2C2B /* Lesson4.swift */; };
 		7559044B2A73B39D004282D2 /* Lesson24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7559044A2A73B39D004282D2 /* Lesson24.swift */; };
 		7559044D2A73B7C9004282D2 /* Lesson25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7559044C2A73B7C9004282D2 /* Lesson25.swift */; };
@@ -163,6 +164,8 @@
 		754AB6AF2A20A4710009D88F /* Lesson8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson8.swift; sourceTree = "<group>"; };
 		754AB6B12A20A7970009D88F /* Lesson9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson9.swift; sourceTree = "<group>"; };
 		7553A1A62B9EDF0B00AC7552 /* Lesson84.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson84.swift; sourceTree = "<group>"; };
+		7553A1A82B9EEF0F00AC7552 /* Lesson85.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson85.swift; sourceTree = "<group>"; };
+		7553A1AA2B9EEF5700AC7552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75543AA32A0B59D4009C2C2B /* Lesson4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4.swift; sourceTree = "<group>"; };
 		7559044A2A73B39D004282D2 /* Lesson24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson24.swift; sourceTree = "<group>"; };
 		7559044C2A73B7C9004282D2 /* Lesson25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson25.swift; sourceTree = "<group>"; };
@@ -280,6 +283,7 @@
 		751689AF29F27CC5007526BA /* SwiftUI100Knocks */ = {
 			isa = PBXGroup;
 			children = (
+				7553A1AA2B9EEF5700AC7552 /* Info.plist */,
 				75AB8BA32A17607A003EEEEE /* Lesson1~10 */,
 				75F397A22A29DEA800A30F75 /* Lesson11~20 */,
 				753602B32A6A7D68009EF3DA /* Lesson21~30 */,
@@ -470,6 +474,7 @@
 				75F10F652B91C5D900F71A1A /* Lesson82.swift */,
 				75F10F672B91C7EB00F71A1A /* Lesson83.swift */,
 				7553A1A62B9EDF0B00AC7552 /* Lesson84.swift */,
+				7553A1A82B9EEF0F00AC7552 /* Lesson85.swift */,
 			);
 			path = "Lesson81~90";
 			sourceTree = "<group>";
@@ -721,6 +726,7 @@
 				75956F422A98A00A00900130 /* Lesson34.swift in Sources */,
 				753676632B2C480C002FDC35 /* Lesson69.swift in Sources */,
 				7593F8612A6141650022FD13 /* Lesson17.swift in Sources */,
+				7553A1A92B9EEF0F00AC7552 /* Lesson85.swift in Sources */,
 				75C8BA972AE275390007ECC7 /* Lesson49.swift in Sources */,
 				7563BE452AD93B5400CBB4D8 /* Lesson42.swift in Sources */,
 				75F10F642B91BE0000F71A1A /* Lesson81.swift in Sources */,
@@ -916,6 +922,8 @@
 				DEVELOPMENT_TEAM = 2HQ4BA8ET8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUI100Knocks/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "動画を撮るために許可が必要です。";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "動画を保存するために許可が必要です。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -947,6 +955,8 @@
 				DEVELOPMENT_TEAM = 2HQ4BA8ET8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUI100Knocks/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "動画を撮るために許可が必要です。";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "動画を保存するために許可が必要です。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
